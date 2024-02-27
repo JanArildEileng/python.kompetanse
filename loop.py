@@ -1,4 +1,13 @@
 
+l=[100,200,300]
+l.append(400)
+
+for i in l:
+    print(i)
+
+#last
+    print(f"Last={ l[-1] }")
+
 
 for i in [0,1,2]:
     if ( i % 2):
@@ -6,10 +15,9 @@ for i in [0,1,2]:
     else:
         print(f"Odd: {i}")
         
-
-
 for i in range(3):
     print(f"{i}")
+
 
 for i in range(3):
     match(i) :
