@@ -1,0 +1,19 @@
+
+def main():
+
+
+
+
+
+    x=int(input("x="))
+    print(f"x={x} x*x={sqr(x)}")
+
+def sqr(x):
+    return x*x
+
+
+
+
+
+
+main()
